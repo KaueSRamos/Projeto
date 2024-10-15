@@ -9,7 +9,7 @@ function contagemPontos1(vitorias, derrotas){
     return pontosRank 
 }
 
-let repeicao = contagemPontos + 1
+let repeticao = contagemPontos + 1
 
 
 switch (true){
@@ -46,7 +46,7 @@ switch (true){
 
 }
 
-for (contagemPontos = contagemPontos; contagemPontos <(repeicao); contagemPontos++){
+for (contagemPontos = contagemPontos; contagemPontos <(repeticao); contagemPontos++){
     console.log("O Herói tem de saldo de " + contagemPontos + " está no nivel de " + nivelRank)
 }
 
